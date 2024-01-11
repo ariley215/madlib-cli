@@ -1,27 +1,26 @@
 # LAB - Class xx
 
-Project: Project Name Here
+Project: Mad Libs
 
-Author: Student/Group Name
+Author: Andrea Thiel
 
 Links and Resources
 
-back-end server url (when applicable)
-front-end application (when applicable)
 
-Setup
+## Setup
+
 .env requirements (where applicable)
-i.e.
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
 
-How to initialize/run your application (where applicable)
-e.g. python main.py
+## How to initialize/run your application (where applicable)
+
+ python madlib_cli/madlib.py
 
 How to use your library (where applicable)
 
 Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+How do you run tests? pytest
+
+Describe any tests that you did not complete, skipped, etc:
+
+last 3 tests skipped - still writing code for those tests
