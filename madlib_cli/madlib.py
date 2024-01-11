@@ -7,15 +7,18 @@ def read_template(file_path):
     print(content)
     return content
 
+import re
 
 def parse_template(content):
-  actual_stripped =
-  actual_parts = ()
-  while '{' in content and '}' in content:
-    start_index = content.find('{')
-    end_ind
-  print("parse file")
+  # pattern = r'\{([^\{\}]+)\}'
+  pattern = r"{([\w ',.-]+)}"
+  matches = tuple(re.findall(pattern, content))
+  actual_stripped = re.sub(pattern, '{}', content)
+  actual_parts = matches
+  return actual_stripped, actual_parts
+  
+input("Please enter an  ")
 
+def merge(actual_stripped, ac):
 
-def merge():
   print("merge")
